@@ -1,14 +1,14 @@
 // index.js
 module.exports = {
-	extends: [
-		'next',
-		'next/core-web-vitals',
-		'prettier',
-		'plugin:@typescript-eslint/recommended',
-		'plugin:yaml/recommended',
-		'plugin:prettier/recommended',
-	],
-	plugins: ['@typescript-eslint', 'prettier', 'yaml'],
+	// extends: [
+	// 	'next',
+	// 	'next/core-web-vitals',
+	// 	'prettier',
+	// 	'plugin:@typescript-eslint/recommended',
+	// 	'plugin:yaml/recommended',
+	// 	'plugin:prettier/recommended',
+	// ],
+	// plugins: ['@typescript-eslint', 'prettier', 'yaml'],
 	ignorePatterns: [
 		'.generated/**/*',
 		'**/*.d.ts',
