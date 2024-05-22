@@ -1,6 +1,6 @@
 {
   "name": "@matthewroach/dev-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shareable development configs",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -22,5 +22,5 @@
   "peerDependencies": {
     "eslint": ">= 3",
     "prettier": ">=3.0.0"
-}
+  }
 }
