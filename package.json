@@ -1,6 +1,6 @@
 {
   "name": "@matthewroach/dev-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Shareable development configs",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
