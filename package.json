@@ -18,5 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/matthewroach/dev-config.git"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "prettier": ">=3.0.0"
+}
 }
