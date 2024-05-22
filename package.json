@@ -1,0 +1,22 @@
+{
+  "name": "@matthewroach/dev-config",
+  "version": "0.0.1",
+  "description": "Shareable development configs",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "main": "index.js",
+  "prettier": "./prettier/index.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version:major": "npm version major",
+    "version:minor": "npm version minor",
+    "version:patch": "npm version patch"
+  },
+  "author": "Matthew Roach",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewroach/dev-config.git"
+  },
+  "license": "ISC"
+}
