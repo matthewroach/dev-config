@@ -26,7 +26,7 @@ npm i @matthewroach/dev-config --save-dev
 
 ## Usage
 
-### Prettier Config
+### Prettier Config
 
 Reference the configuration in your `package.json` file
 
