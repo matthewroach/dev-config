@@ -42,7 +42,7 @@ Reference the configuration in your `package.json` file
 
 Version is handling with `npm` and uses [semver](https://semver.org)
 
-Use the correct `npm run version:{type}` command to bump the verison
+Use the correct `npm run version:{type}` command to bump the version
 
 - `major` - Used for created a breaking change release - 1.0.0 -> 2.0.0
 - `minor` - Increase the minor version - 1.1.0 -> 1.2.0
