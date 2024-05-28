@@ -3,7 +3,8 @@
   "version": "0.0.8",
   "description": "Shareable development configs",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "main": "index.js",
   "prettier": "./prettier/index.json",
