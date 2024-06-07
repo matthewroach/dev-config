@@ -8,17 +8,7 @@ Available configs
 
 ## Installing
 
-As the package is published to the GitHub packages it requires an `.npmrc` file configured to the GitHub registry for the scope `@matthewroach` and a personal GitHub access code
-
-```
-# .npmrc
-@matthewroach:registry=https://npm.pkg.github.com/
-
-//npm.pkg.github.com/:_authToken=${AUTH_TOKEN}
-
-```
-
-Install the package
+Install the package (from NPM), for GitHub packages see [GitHub Package](#GitHub Packages)
 
 ```
 npm i @matthewroach/dev-config --save-dev
@@ -47,6 +37,34 @@ Use the correct `npm run version:{type}` command to bump the version
 - `major` - Used for created a breaking change release - 1.0.0 -> 2.0.0
 - `minor` - Increase the minor version - 1.1.0 -> 1.2.0
 - `patch` - Small backwards compatible changes/bug fixes - 1.0.1 -> 1.0.2
+
+## Publishing
+
+To publish to NPM this is manual.
+
+### Manual Publishing
+
+Publish happens with `npm publish` command.
+
+# GitHub Packages
+
+## Installing
+
+As the package is published to the GitHub packages it requires an `.npmrc` file configured to the GitHub registry for the scope `@matthewroach` and a personal GitHub access code
+
+```
+# .npmrc
+@matthewroach:registry=https://npm.pkg.github.com/
+
+//npm.pkg.github.com/:_authToken=${AUTH_TOKEN}
+
+```
+
+Install the package
+
+```
+npm i @matthewroach/dev-config --save-dev
+```
 
 ## Publishing
 
