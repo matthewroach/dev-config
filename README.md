@@ -8,7 +8,7 @@ Available configs
 
 ## Installing
 
-Install the package (from NPM), for GitHub packages see [GitHub Package](#GitHub Packages)
+Install the package (from NPM), for GitHub packages see [GitHub Package](#GitHub-Packages)
 
 ```
 npm i @matthewroach/dev-config --save-dev
